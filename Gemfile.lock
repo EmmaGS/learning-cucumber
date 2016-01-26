@@ -3,6 +3,7 @@ GEM
   specs:
     addressable (2.4.0)
     builder (3.2.2)
+    byebug (8.2.1)
     capybara (2.6.0)
       addressable
       mime-types (>= 1.16)
@@ -37,6 +38,19 @@ GEM
     rack (1.6.4)
     rack-test (0.6.3)
       rack (>= 1.0)
+    rspec (3.4.0)
+      rspec-core (~> 3.4.0)
+      rspec-expectations (~> 3.4.0)
+      rspec-mocks (~> 3.4.0)
+    rspec-core (3.4.1)
+      rspec-support (~> 3.4.0)
+    rspec-expectations (3.4.0)
+      diff-lcs (>= 1.2.0, < 2.0)
+      rspec-support (~> 3.4.0)
+    rspec-mocks (3.4.1)
+      diff-lcs (>= 1.2.0, < 2.0)
+      rspec-support (~> 3.4.0)
+    rspec-support (3.4.1)
     rubyzip (1.1.7)
     selenium-webdriver (2.49.0)
       childprocess (~> 0.5)
@@ -51,8 +65,10 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
+  byebug
   capybara
   cucumber
+  rspec
   selenium-webdriver
 
 BUNDLED WITH
